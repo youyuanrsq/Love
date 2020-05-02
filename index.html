@@ -20,56 +20,49 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+				<span class="space"/><span class="comments">* 能够遇见你是如此的幸运。</span><br />
+				<span class="space"/><span class="comments">* 所以我想通过这个网站来记录我们从相遇那一刻起每一分每一秒</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">任世强</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">方方</span>);<br />
+				<span class="comments">// 4月2号，我们的缘分开始于一句"我发现你和我一姐夫长的好像啊"，从此我们聊的越来越多.... </span><br />
+				i.met(u);<br />
+				<span class="comments">// 4月15号那晚，我们通过真心话大冒险的游戏互表心意.原来我们两在互相喜欢着对方.</span><br />
 				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+				<span class="comments">// 4月17号，第一次收到了你给我送的小饼干.....</span><br />
+				i.love(this);<br />
+				<span class="comments">// 5月2号，收到了你的两个发套，一本书以及写明"不是love letter"的两份手写改编歌词.</span><br />
+				i.amSoHappy();<br />
+				<span class="comments">// 你说你还特地给发套喷了香水，可真是个小机灵鬼呢。</span><br />
+				<span class="comments">// 你说我们要等到你考完研再见面，我也愿意等.</span><br />
+				<span class="comments">// 而有了这个发套，就好像你在我身边一样.</span><br />
+				<br />
+				<span class="comments">// 你这个宝藏女孩，我真的认定了.</span><br />
+
+				<span class="comments">// 希望我们的故事会一直是"未完待续"，直到生命的尽头.</span><br />
+
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						方方，我们从相遇、相知到相爱已经
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						愿不忘初心，携手走完余生.<br/>
+						<div class="signature">- 任世强</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
-		</div>
+
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2020, 04, 3);
+		together.setFullYear(2020, 3, 2);
 		together.setHours(20);
 		together.setMinutes(0);
 		together.setSeconds(0);
